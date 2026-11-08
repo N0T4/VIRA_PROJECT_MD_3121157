@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-03",
+  "status": "build_and_quest_verified",
+  "upstream": {
+    "repository": "https://github.com/meta-quest/Meta-Spatial-SDK-Samples.git",
+    "observed_commit": "822f4d1ec967d4975ae8db386502b60cda5218c0",
+    "observed_commit_time": "2026-11-03T18:48:49Z",
+    "sample": "StarterSample",
+    "versions_path": "StarterSample/gradle/libs.versions.toml",
+    "versions_git_blob_sha": "d04db062f6dee35ae44643e5e09822401aa72582",
+    "observed": {
+      "meta_spatial_sdk": "0.15.0",
+      "agp": "8.11.1",
+      "kotlin": "2.1.0",
+      "gradle": "9.4.1",
+      "android_api": 34
+    },
+    "accepted_commit": "822f4d1ec967d4975ae8db386502b60cda5218c0",
+    "build_verified": true,
+    "quest_verified": true
+  },
+  "policy": "Do not silently upgrade, copy unknown signatures, or claim smoke tests passed. Pin accepted commit after T000/T001."
+}

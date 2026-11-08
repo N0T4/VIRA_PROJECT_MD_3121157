@@ -1,0 +1,5 @@
+*.blend binary
+*.glb binary
+*.gltf -diff
+*.glxf -diff
+*.mp4 binary

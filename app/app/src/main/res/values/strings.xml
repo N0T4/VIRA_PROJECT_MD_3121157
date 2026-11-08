@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="entry_wordmark" translatable="false">VIRA</string>
+  <string name="open_tools">TOOLS</string>
+  <string name="close_tools">Close</string>
+  <string name="recenter_tools">Recenter</string>
+</resources>

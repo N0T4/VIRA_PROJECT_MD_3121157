@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <item type="id" name="panel" />
+  <item type="id" name="demo_video_panel" />
+  <item type="id" name="demo_video_controls" />
+  <item type="id" name="tools_panel" />
+  <item type="id" name="library_panel" />
+  <item type="id" name="library_drop_panel" />
+  <item type="id" name="anime_card_cover" />
+  <item type="id" name="anime_card_inside" />
+</resources>

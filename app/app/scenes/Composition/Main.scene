@@ -1,0 +1,42 @@
+entities:
+  com.meta.models.Scene:
+    - components:
+        com.meta.components.Name:
+          {}
+        com.meta.components.Scene:
+          nodes:
+            - ref:Panel
+      tag: Scene
+  com.meta.models.SceneNode:
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: Panel
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 6.12323426e-17
+            - 6.12323426e-17
+            - 1
+            - -3.74939976e-33
+          rotation.format: Quaternion
+          scale:
+            - 3.2
+            - 1.8
+            - 1
+          translation:
+            - 0
+            - 1.55
+            - -2.75
+          componentVersion: 1
+        com.meta.components.Visibility:
+          visible: true
+        com.meta.spatial.toolkit.Panel:
+          panel: "@id/panel"
+        com.meta.spatial.toolkit.PanelDimensions:
+          {}
+      tag: Panel
+metadata:
+  version: 1.34

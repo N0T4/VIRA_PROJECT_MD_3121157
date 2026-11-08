@@ -1,13 +1,22 @@
 # VIRA
 
-VIRA is a proposed virtual reality application for Meta Quest. The idea is to let users discover anime, organise a personal watchlist and watch local videos in a virtual environment. It will use Kotlin and the Meta Spatial SDK.
+VIRA is a Meta Quest prototype with a fixed screen, an offline anime catalog, a movable folding Anime Card, and a local Library. The current app includes hand and controller interaction, local status and rating, and playback of a bundled demo clip.
 
-## Starting point
+## Build
 
-`StarterSample/` contains the unmodified official Meta starter application. Open this folder in Android Studio.
+Open [app/](app/) in Android Studio. The project uses JDK 17, Android SDK Platform 34, Build Tools 35.0.0, and Meta Spatial Editor. Run these commands from `app/` on Windows:
 
-Source: [Meta Spatial SDK StarterSample](https://github.com/meta-quest/Meta-Spatial-SDK-Samples/tree/f233e2327b95f9871b75bdba867d6fdd726f07cc/StarterSample).
+```powershell
+.\gradlew.bat :app:assembleDebug :app:testDebugUnitTest :app:lintDebug
+```
 
-Setup: [Meta getting started tutorial](https://developers.meta.com/horizon/documentation/spatial-sdk/spatial-sdk-helloworld).
+The debug APK is written to `app/app/build/outputs/apk/debug/app-debug.apk`. For interaction controls and the demo playback flow, see the [app guide](app/README.md).
 
-Meta's original copyright notices, source licence and asset licences are included.
+## Repository layout
+
+- [app/](app/) contains VIRA source, scene files, assets, database schemas, and tests.
+- [assets/](assets/) contains the editable room blockout and asset register.
+- [docs/](docs/) contains product, design, testing, and technical notes.
+- [StarterSample/](StarterSample/) is the original coursework baseline from Meta Spatial SDK Samples at `f233e2327b95f9871b75bdba867d6fdd726f07cc`.
+
+The active app uses Meta Spatial SDK 0.15.0 and StarterSample revision `822f4d1ec967d4975ae8db386502b60cda5218c0`. See [upstream versions](config/upstream.lock.json) and [licenses and notices](NOTICE.md).

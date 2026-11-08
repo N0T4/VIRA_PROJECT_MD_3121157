@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "environment.room",
+      "status": "not_supplied",
+      "source": null,
+      "export": null,
+      "license": "UNKNOWN",
+      "placeholder": {
+        "status": "blender_reviewed",
+        "version": "blockout-01",
+        "source": "assets/placeholders/environment/VIRA_Room_Blockout.blend",
+        "sha256": "d4cf9667354a8b7c487331c938bf91a8ce1c9ef7f25a3e7a128cbc5e096bb1ea",
+        "preview": "assets/placeholders/environment/VIRA_Room_Blockout.png"
+      }
+    },
+    {
+      "id": "card.foldable",
+      "status": "not_supplied",
+      "source": null,
+      "export": null,
+      "license": "UNKNOWN"
+    },
+    {
+      "id": "avatars.presets",
+      "status": "concept_only",
+      "source": null,
+      "export": null,
+      "license": "UNKNOWN"
+    },
+    {
+      "id": "mascot.guide",
+      "status": "concept_only_role_unresolved",
+      "source": null,
+      "export": null,
+      "license": "UNKNOWN"
+    },
+    {
+      "id": "ui.components",
+      "status": "spec_only",
+      "source": null,
+      "export": null,
+      "license": "not_assigned"
+    },
+    {
+      "id": "animation.interaction",
+      "status": "spec_only",
+      "source": null,
+      "export": null,
+      "license": "not_assigned"
+    }
+  ]
+}
