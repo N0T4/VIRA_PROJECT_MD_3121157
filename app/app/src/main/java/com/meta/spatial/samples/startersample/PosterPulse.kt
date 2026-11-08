@@ -10,7 +10,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-// Runtime subset of config/design_tokens.proposed.json.
 internal object PosterPulse {
   val Background = Color(0xFF0B0B0F)
   val Surface = Color(0xFF1C1C22)
